@@ -1,0 +1,15 @@
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/bin/Debug/net5.0/HelloWorld.deps.json
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/bin/Debug/net5.0/HelloWorld.runtimeconfig.json
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/bin/Debug/net5.0/HelloWorld.runtimeconfig.dev.json
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/bin/Debug/net5.0/HelloWorld.dll
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/bin/Debug/net5.0/ref/HelloWorld.dll
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/bin/Debug/net5.0/HelloWorld.pdb
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/HelloWorld.csprojAssemblyReference.cache
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/HelloWorld.AssemblyInfoInputs.cache
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/HelloWorld.AssemblyInfo.cs
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/HelloWorld.csproj.CoreCompileInputs.cache
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/HelloWorld.dll
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/ref/HelloWorld.dll
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/HelloWorld.pdb
+/Users/danieloldehoff/GitHub/HelloWorld/HelloWorld/obj/Debug/net5.0/HelloWorld.genruntimeconfig.cache
