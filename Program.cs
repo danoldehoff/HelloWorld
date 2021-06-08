@@ -6,12 +6,13 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(12.328);
+            Constants.Number = 100;
+            Console.WriteLine(Constants.Number);
             Console.WriteLine("Hello World!");
             Beep();
         }
 
-        static void Beep()
+        private static void Beep()
         {
             Console.Beep(15000, 100000);
         }
