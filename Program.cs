@@ -14,14 +14,15 @@ namespace HelloWorld
             if (Constants.Number == 5 && 6 > 5) // if (false && true) --> if (false)
             {
                 Console.WriteLine("100");
+                Console.Write("Dan");
             }
-            else if(Constants.Number > 10 && Constants.Number < 20) // Greater than 10 less than 20
+            else if (Constants.Number > 10 && Constants.Number < 20) // Greater than 10 less than 20
             {
                 Console.WriteLine("Hello");
             }
             else if (Constants.Number <= 75)
             {
-                Console.WriteLine("maybe");
+                System.Console.WriteLine("maybe");
             }
             else
             {
@@ -29,14 +30,47 @@ namespace HelloWorld
             }
 
             //Beep();
-        }
+            FizzBuzz(5);
+        
 
         private static void Beep()
         {
             Console.Beep(15000, 100000);
         }
+
+
+        // Fizz Buzz
+        // If the number is divisbile by 3, Console.WriteLine("Fizz")
+        // Else if the number is divisible by 5, Console.WriteLine("Buzz")
+        // Else if the number is divisible by both 3 and 5, Console.WriteLine("Fizz Buzz")
+        // Else, do nothing
+        private static void FizzBuzz(int number)
+        {           
+
+            //double divideByThreeResult = number / 3; // 3 / 3 = 1; 3 / 4 = .75; 3 % 3 = 0; 3 % 2 = 1; 3 % 4 = 3
+            //double divideByFiveResult = number / 5; // 3 / 5 = 0.6; 15 / 5 = 3
+           
+            if (number % 3 == 0 && number % 5 == 0)
+            {
+                Console.WriteLine("FizzBuzz");
+            }
+            else if (number % 3 == 0)
+            {
+                Console.WriteLine("Fizz");
+            }
+            else if (number % 5 == 0)
+            {
+                Console.WriteLine("Buzz");
+            }
+
+            //
+            
+            
+        }
     }
 }
+
+
 
 /*
 
