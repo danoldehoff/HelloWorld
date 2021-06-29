@@ -8,6 +8,8 @@ namespace HelloWorld
         {
             // We are changing this number to demonstrate how to change public static variables from a different class
             Constants.Number = 4;
+            Constants.Number++; // Same as Constants.Number = Constants.Number + 1;
+
             Console.WriteLine(Constants.Number);
             Console.WriteLine("Hello World!");
 
@@ -29,28 +31,39 @@ namespace HelloWorld
                 Console.WriteLine("false");
             }
 
-            //Beep();
-            FizzBuzz(5);
-        
+            // Challenge: Start at 0, never reach 100, increment by 5
+            for (int i = 0; i < 100; i += 5) // for(variable assignment ; conditional ; action to take after completing the loop)
+            {
+                FizzBuzz(i);
+            }
 
-        private static void Beep()
-        {
-            Console.Beep(15000, 100000);
+            // Challenge: Start at 1, never go above 100, increment by 1
+            for (int i = 1; i <= 100; i++) // for(variable assignment ; conditional ; action to take after completing the loop)
+            {
+                FizzBuzz(i);
+            }
+
+            int index = 0;
+            while(index < 100)
+            {
+                FizzBuzz(index);
+                index++;
+            }
+
+
+            Console.WriteLine("Done");
+
         }
 
 
         // Fizz Buzz
-        // If the number is divisbile by 3, Console.WriteLine("Fizz")
+        // If the number is divisible by both 3 and 5, Console.WriteLine("Fizz Buzz")
+        // Else if the number is divisbile by 3, Console.WriteLine("Fizz")
         // Else if the number is divisible by 5, Console.WriteLine("Buzz")
-        // Else if the number is divisible by both 3 and 5, Console.WriteLine("Fizz Buzz")
         // Else, do nothing
-        private static void FizzBuzz(int number)
-        {           
-
-            //double divideByThreeResult = number / 3; // 3 / 3 = 1; 3 / 4 = .75; 3 % 3 = 0; 3 % 2 = 1; 3 % 4 = 3
-            //double divideByFiveResult = number / 5; // 3 / 5 = 0.6; 15 / 5 = 3
-           
-            if (number % 3 == 0 && number % 5 == 0)
+        static void FizzBuzz(int number)
+        {
+            if (number % 3 == 0 && number % 5 == 0) //true
             {
                 Console.WriteLine("FizzBuzz");
             }
@@ -62,16 +75,18 @@ namespace HelloWorld
             {
                 Console.WriteLine("Buzz");
             }
-
-            //
-            
-            
+            else
+            {
+                Console.WriteLine("false");
+            }
         }
     }
 }
 
 
 
+
+//
 /*
 
 Boolean is either 0 or 1
