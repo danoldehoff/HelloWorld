@@ -43,15 +43,27 @@ namespace HelloWorld
                 FizzBuzz(i);
             }
 
+
             int index = 0;
-            while(index < 100)
+            while (index < 100) // while true, execute
             {
                 FizzBuzz(index);
                 index++;
             }
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 2; j++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine("*");
+
+            }
 
 
-            Console.WriteLine("Done");
+
+            Console.WriteLine("*");
 
         }
 
