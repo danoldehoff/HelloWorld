@@ -61,11 +61,50 @@ namespace HelloWorld
 
             }
 
+            //***
+            //**
+            //*
+            for (int row = 0; row < 3; row++)
+            {
+                for (int numberOfStars = 3; numberOfStars > row; numberOfStars--)
+                {
+                    Console.Write("*");
+                }
 
+                Console.WriteLine("");
+            }
 
-            Console.WriteLine("*");
+            for (int row = 0; row < 10; row++)
+            {
+                for (int numberOfStars = 0; numberOfStars <= row; numberOfStars++)
+                {
+                    Console.Write("*");
+                }
 
-        }
+                Console.WriteLine("");
+            }
+            var weddingPhoto1 = new Photo
+            {
+                Camera = "Nikon Z6",
+                Url = "https://imgur.com",
+                Latitude = 38.69,
+                Longitude = -82.51,
+            };
+            Console.WriteLine(weddingPhoto1.Camera);
+            Console.WriteLine(weddingPhoto1.Latitude);
+
+            var weddingPhoto2 = new Photo
+            {
+                Camera = "Nikon Z7",
+                Url = "https://imgur.com",
+                Latitude = 27.29,
+                Longitude = -102.51,
+            };
+            Console.WriteLine(weddingPhoto1.Camera);
+            Console.WriteLine(weddingPhoto1.Latitude);
+            Console.WriteLine(weddingPhoto2.Camera);
+                }
+
 
 
         // Fizz Buzz
